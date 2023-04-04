@@ -2,6 +2,8 @@ package datastructures.graph;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       Graph newgraph = new Graph();
+       newgraph.addVertex("2");
+
     }
 }
