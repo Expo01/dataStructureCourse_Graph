@@ -56,7 +56,7 @@ public class Graph {
         adjList.remove(vertex); //once desired vertex is removed from all vertices it has an edge with, then we can remove it
         return true;
     } //removing a vertex uses the remove() method from ArrayList which is
-    // O(n) worst case scenario I think because re-indexing is required. so removeVertex() is also O(n)..
+    // O(n) worst case scenario I think because re-indexing is required. so removeVertex() is also O(n)...
 
 }
 
